@@ -72,7 +72,7 @@ def parse_word():
                 # print(para1.alignment)
                 # print(y1)
                 # print(len(fullText))
-                fullText[len(fullText) - 1] = fullText[len(fullText) - 1] + str(y1)
+                fullText[len(fullText) - 1] = fullText[len(fullText) - 1] + str(y1) #change this line according to the word document alignment change to filltext.append(str(y1))
                 y1 = ''
     return fullText,fullText2,fullText5,fullText6
 fullText3 = []   #the output text which displays the text in format of heading1->heading2->para.text(if there is table we display that)
